@@ -32,15 +32,15 @@ export default function About() {
             <div className="grid grid-cols-2 gap-4">
               <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-lg">
                 <img
-                  src="https://www.pexels.com/photo/traditional-handloom-weaving-in-jodhpur-workshop-31508152?auto=compress&cs=tinysrgb&w=600"
-                  alt="Traditional textile weaving"
+                  src="https://images.pexels.com/photos/31508152/pexels-photo-31508152.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  alt="Traditional handloom weaving in workshop"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-lg mt-8">
                 <img
-                  src="https://www.pexels.com/photo/10317127?auto=compress&cs=tinysrgb&w=600"
-                  alt="Colourful fabric rolls"
+                  src="https://images.pexels.com/photos/10317127/pexels-photo-10317127.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  alt="Close-up of traditional Indian textile with intricate patterns"
                   className="w-full h-full object-cover"
                 />
               </div>
