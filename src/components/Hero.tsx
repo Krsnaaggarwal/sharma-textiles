@@ -66,7 +66,7 @@ export default function Hero() {
           <div className="hidden lg:block relative">
             <div className="relative w-full aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.pexels.com/photos/6044266/pexels-photo-6044266.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="https://www.pexels.com/photo/32214853"
                 alt="Beautiful Indian saree display"
                 className="w-full h-full object-cover"
               />
