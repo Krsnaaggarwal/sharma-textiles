@@ -1,0 +1,63 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          50: '#fef7ed',
+          100: '#fdedd4',
+          200: '#fad7a8',
+          300: '#f6b871',
+          400: '#f19338',
+          500: '#ed7513',
+          600: '#de5a09',
+          700: '#b8430a',
+          800: '#933510',
+          900: '#772d11',
+        },
+        accent: {
+          50: '#fdf5f0',
+          100: '#fbe8dc',
+          200: '#f5c9b5',
+          300: '#efa384',
+          400: '#e87854',
+          500: '#e25a33',
+          600: '#d44428',
+          700: '#b03421',
+          800: '#8d2c20',
+          900: '#73271f',
+        },
+        warm: {
+          50: '#faf6f1',
+          100: '#f2e8d9',
+          200: '#e6d0b3',
+          300: '#d7b486',
+          400: '#c99a5e',
+          500: '#bc8444',
+          600: '#a87038',
+          700: '#8b5930',
+          800: '#72482c',
+          900: '#5e3c28',
+        },
+        cream: {
+          50: '#fffdf7',
+          100: '#fff9eb',
+          200: '#fff1cc',
+          300: '#ffe4a0',
+          400: '#ffd46e',
+          500: '#ffc043',
+          600: '#f0a425',
+          700: '#cc801c',
+          800: '#a6631c',
+          900: '#88501c',
+        },
+      },
+      fontFamily: {
+        display: ['Playfair Display', 'serif'],
+        body: ['Poppins', 'sans-serif'],
+      },
+    },
+  },
+  plugins: [],
+};
